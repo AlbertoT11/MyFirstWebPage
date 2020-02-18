@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Betonce11</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- This is a comment -->
+    <!-- <ul> = bulets, <ol> = number list 1, 2 ,3, etc --> 
+    <h1> Header of Page </h1>
+    <p> Paragraph </p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Siberian-husky.jpg" alt= "This is an image of a Dog" />
+    <script src="script.js"></script>
+    <img/>
+
+    <<table>
+       <thead>
+          <tr> 
+            <th> column 1 </th>
+              <th> column 2 </th>
+          </tr>
+          </thead>
+             <tbody>
+                <tr> 
+                  <td> Data 1 </td> 
+                     <td> Data 2 </td> 
+                  </tr>
+                  <tr> . . . </tr> 
+               </tbody>
+                   <!--(SAME NUMBER OF <TH> & <TD>)-->
+                      <tfoot>
+                         <tr>Test 1 </tr>
+                            <tr> Test 2</tr>
+                       </tfoot>
+     </table> 
+
+  <form> 
+    <fieldset>
+      <legend>
+        Title of form
+      </legend>
+      <div>
+        <label for= "user-name">
+        Username:
+      </label>
+      <input type= "text" id= "user-name" class= "info" name= "user" />
+      
+      </div>
+      <!-- *Naming Class and id
+      * Never begin with a number
+      * Begin with lower case letter
+      * You can follow with [a-z][A-Z][0-9][-_] -->
+      <div>
+      <label for= "Password">
+        Password:
+      </label>
+      <input type= "Password" />
+      </div>
+      
+      <div>
+      <label for= "number">
+        Number:
+      </label>
+      <input type= "number" />
+      </div>
+      
+      <div>
+      <label for= "email">
+        Email:
+      </label>
+      <input type= "email" />
+      </div>
+      
+      <div>
+      <label for= "date">
+        Date:
+      </label>
+      <input type= "date" />
+      </div>
+      
+      <div>
+      <label for= "tel">
+        Tel:
+      </label>
+      <input type= "tel" />
+      </div>
+
+      <input type= "submit" value= "Submit" />
+
+      <div>
+        <label for= "gender-m" >
+          Male
+        </label>
+        <input type="radio" id="gender-m" name="gender" />
+      </div>
+
+      <div>
+        <label for= "gender-f" >
+          Female
+        </label>
+        <input type="radio" id="gender-f" name="gender" />
+      </div>
+      <input type= "checkbox" />
+ 
+      <div>
+      <label for= "country">
+        Select Country
+      </label>
+      <select name= "country" >
+        <option value= "MX" >
+          Mexico
+        </option>
+
+        <option value= "FR" >
+          France
+        </option>
+      </select>
+      </div>
+
+      
+      <label for= "textarea">
+        Leave us a Comment:
+      </label>
+      <div>
+      <textarea>
+      </textarea>
+      </div>
+
+    </fieldset>
+  </form>
+  </body>
+</html>
